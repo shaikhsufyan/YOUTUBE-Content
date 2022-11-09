@@ -1,0 +1,58 @@
+body{
+    /* background-color: rebeccapurple; */
+    font-family: 'Mulish', sans-serif;
+}
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+     
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+}
+ul li a:hover{
+    color: rgb(10, 152, 218);
+    cursor: pointer;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    color: white;
+}
+.text{
+    width: 60%;
+    /* background-color: rgb(124, 124, 124); */
+    background-color: rgb(184, 218, 247);
+   
+
+}
+.text h1{
+    margin-left: 50px;
+    font-size: 65px;
+
+}
+.text button {
+    width: 150px;
+    height: 46px;
+    background-color: #fff;
+    color: black;border: none;
+    margin-left: 55px;
+}
+.text button:hover{
+    border: 4px solid white;
+    background-color: rgb(184, 218, 247);
+    font-size: 17px;
+     
+}
+.page img{
+    width: 48%;
+    height: 500px;
+}
