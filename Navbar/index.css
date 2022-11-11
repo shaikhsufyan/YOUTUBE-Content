@@ -1,0 +1,63 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+  
+ 
+ .container{
+   
+    width: 100%;
+    height: 90px;
+    background-color: #03203C;
+    display: flex;
+    justify-content: space-around;
+   
+    
+ }
+ .logo img{ 
+     
+     margin: 25px;
+    width: 120px;
+    height: 35px;
+ }
+
+ .list {
+    display: flex;
+    list-style: none;
+    color: white;
+   font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+
+    /*  */
+
+     
+    
+
+ }
+.list li{
+    margin: 30px;
+     
+}
+button{
+    margin: 25px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    background-color: #03203C;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+   background-color: white;
+   color: #0a3f70;
+   font-weight: 900;
+   font-size: 17px;
+
+}
+.men-img img{
+    width: 1300px;
+    height: 570px;
+}
