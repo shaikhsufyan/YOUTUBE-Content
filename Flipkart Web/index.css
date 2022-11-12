@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mukta', sans-serif;
+ 
+
+} 
+
+.f-nav{
+    display: flex;
+    background-color: rgb(29, 88, 248);
+    width: 100%;
+    height: 55px;
+}
+nav img{
+    width: 30%;
+    margin-left: 55%;
+    margin-top: 2%;
+}
+nav .icon p{
+    margin-left: 55%;
+    color: white;
+}
+.icon p span{
+    color: rgb(250, 193, 6);
+}
+nav input{
+    width: 30%;
+    height: 18px;
+    margin-top: 13px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    padding: 7px;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+     
+}
+nav i{
+    color: blue;
+    margin-top: 22px;
+     margin-left: -27px;
+     font-size: 16px;
+}
+nav ul li a{
+    margin-inline: 22px;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+ 
+
+ ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: black;
+    list-style: none;
+    margin: 16px;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: gray;
+}
+ul li a{
+    margin-inline: 27px;
+    font-size: 18px;
+}
+
+.main img{
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+     
+}
+.container .card{
+    /* margin-inline: 1px; */
+    text-align: center;
+}
+.card img{
+    width: 73%;
+}
