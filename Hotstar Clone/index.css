@@ -1,0 +1,137 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+     
+ } 
+ body{
+    background-color: rgb(9, 15, 31);
+ }
+  
+ nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(6, 10, 21);
+
+    padding: 17px;
+ }
+ .left{
+    display: flex;
+     
+ }
+ .left i{
+    padding: 22px;
+    font-size: 20px;
+ }
+
+ .left ul{
+    list-style: none;
+ }
+ .left ul li a{
+    margin-inline: 10px;
+    margin-top: 22px;
+    font-size: 20px;
+ } 
+ .left ul li .caps{
+    color: rgb(255, 187, 0);
+ }
+  .left ul li img{
+    position: relative;
+    top: 7px;
+  }
+
+  .right{
+    display: flex;
+  }
+
+  .right input{
+    padding: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 15px;
+    background-color: rgb(6, 10, 21);
+
+    height: 30px;
+    margin-top: 13px;
+    
+  }
+.right i{
+    margin-left: -24px;
+    margin-top: 22px;
+     
+}
+.right button{
+    width: 100px;
+    height: 26px;
+    background-color: rgb(22, 102, 249);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin:20px;
+}
+
+.right h2{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+.img img{
+    width: 60%;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 44px;
+}
+.img{
+    
+    width: 90%;
+    height: 400px;
+    background-color: rgb(11, 11, 25);
+    border: 2px solid white;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-top: 22px;
+   
+}
+.img .text{
+    margin-top: 90px;
+    color: white;
+    font-size: 30px;
+
+   
+} 
+.text button{
+    width: 170px;
+    height: 38px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 93, 251);
+    font-size:20px;
+    margin-top: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.container .card img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
