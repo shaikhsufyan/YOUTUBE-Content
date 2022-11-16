@@ -1,0 +1,71 @@
+ body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+ }
+ nav h1{
+    font-size: 44px;
+    border-bottom: 3px solid  rgba(255, 0, 0, 0.938);
+ }
+ nav span{
+    color:    rgba(255, 0, 0, 0.938);
+ }
+ ul{
+    display: flex;
+    margin-right: 120px;
+    font-size: 26px;
+
+ }
+ ul li{
+    margin-inline:30px ;
+    list-style: none;
+ }
+ .main-page{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+ }
+ .main-page img{
+    width: 450px;
+    margin-top: -150px;
+    margin-right: 120px;
+ }
+ .text{
+    margin-left: 50px;
+    margin-top: -80px;
+
+ }
+ .text h3{
+    font-size: 30px;
+    color:    rgb(255, 0, 0);
+    position: relative;
+    top: 120px;
+
+ }
+ .text h1{
+    font-size: 134px;
+    font-family: 'Mukta', sans-serif;
+    
+ }
+ .text h2{
+    font-size: 40px;
+    color:   rgb(255, 0, 0);
+    margin-top: -140px;
+ }
+ .text button{
+    width: 160px;
+    height: 42px;
+    background-color:rgba(255, 0, 0, 0.742); 
+    color: white;
+    border: none;
+    font-size: 25px;
+ }
+ .text button:hover{
+    border: 3px solid rgba(255, 0, 0, 0.742); 
+    background-color: black;
+ }

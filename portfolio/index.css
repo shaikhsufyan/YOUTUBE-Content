@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+}
+nav h1{
+    font-size: 40px;
+     margin-top:10px;
+     border-bottom: 3px solid  rgba(255, 0, 0, 0.705);
+     border-radius:3px ;
+}
+nav h1 span {
+    color: rgba(255, 0, 0, 0.705);
+}
+ul{
+    display: flex;
+    margin-right: 130px;
+   font-size: 20px;
+   
+    
+}
+li{
+    list-style: none;
+    margin-inline: 30px;
+   
+}
+ 
+.main-page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.main-page img{
+    margin-right: 90px;
+    margin-top: -120px;
+    width: 440px;
+}
+.text-div{
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.text-div h3{
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+    color: rgba(255, 0, 0, 0.705);
+}
+.text-div h1{
+    font-size: 126px;
+    font-family: 'Mukta', sans-serif;
+}
+.text-div h2{
+    font-size: 40px;
+    position:  relative;
+    top: -21%;
+    color: rgba(255, 0, 0, 0.705);
+}
+button{
+    width: 170px;
+    height: 45px;
+    background-color: rgba(255, 0, 0, 0.63);
+    border: none;
+    color: white;
+    
+    font-size: 22px;
+    position: relative;
+    top: -18%;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid rgba(255, 0, 0, 0.664);
+    border-radius: 5px;
+    font-size: 25px;
+}
