@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav img{
+    width: 54%;
+}
+nav input{
+    width:350px;
+    height: 26px;
+    margin-top: 50px;
+    margin-left: -370px;
+}
+nav .inpt{
+    width: 160px;
+    height: 55px;
+    background-color: rgb(198, 192, 192);
+    text-align: center;
+    margin-top: 36px;
+
+}
+nav .inpt i{
+   font-size: 22px;
+   margin-top: 5px;
+   color: rgb(221, 59, 59);
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+
+}
+.sec button{
+    width: 220px;
+    background-color: rgb(69, 139, 19);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+}
+.sec input{
+    width: 730px;
+    height: 29px;
+    border: 1px solid rgb(192, 188, 188);
+}
+.main-page img{
+    width: 100%;
+}
+.btn{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+}
+.btn button{
+    width: 180px;
+    height: 36px;
+    background-color: rgb(35, 74, 9);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+}
+.container .card{
+    width: 200px;
+    height: 220px;
+    border: 1px solid gray;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+  h1{
+text-align: center;
+margin-top: 43px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+.health{
+    width: 100%;
+}
+.store h1{
+    text-align: center;
+    margin-top: 33px;
+}
+
+.our-brd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.our-brd .brand img{
+    width: 77%;
+}
+.brand {
+    width: 200px;
+    height: 100px;
+    border: 2px solid gray;
+    text-align: center;
+    margin: 33px;
+}
