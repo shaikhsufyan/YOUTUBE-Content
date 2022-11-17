@@ -1,0 +1,89 @@
+body{
+     
+    background-color: #001d24;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    margin-inline: 30px;
+}
+ul img{
+    width: 70px;
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+}
+.btns{
+    display: flex;
+     margin-inline: 30px;
+}
+.btns button{
+    width: 100px;
+    height: 35px;
+    border:none;
+    border-radius: 20px;
+    margin-inline: 30px;
+    margin-top: 12px;
+    background-color:  rgb(255, 109, 109);
+    color: white;
+    font-size: 17px;
+}
+.main-page{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+}
+.plate-img .main-img{
+    width: 470px;
+    position: absolute;
+     right: 210px;
+      top: 160px;
+     
+}
+.plate-img .egg-img{
+    width: 160px;
+    margin-right: 60px;
+    margin-top: -10px;
+    
+}
+.main-text {
+    margin-top: 10px;
+    margin-left: 50px;
+    
+    
+}
+.main-head{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 60px;
+     
+}
+.main-text .soon{
+    width: 220px;
+    height: 43px;
+    background-color: black;
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+    margin-top: -50px;
+}
+.main-text button{
+    width: 200px;
+    height: 37px;
+    background-color: rgb(255, 109, 109) ;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 20px;
+}
+.main-text .tag-line{
+    font-family: 'Mukta', sans-serif;
+    font-size: 80px;
+    margin-top: -40px;
+}
