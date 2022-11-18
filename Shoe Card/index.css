@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     
+}
+body{
+ background-color: rgb(64, 64, 252);
+ font-family: 'Mulish', sans-serif;
+}
+
+.card{
+    width: 270px;
+    height: 430px;
+    background-color: white;
+     margin-top: 33px;
+     border-radius: 18px;
+     margin-inline:30px;
+
+}
+.card:hover{
+    margin-top: 18px;
+}
+.card .logo i{
+    margin: 20px;
+   font-size: 26px;
+}
+.card h1{
+    font-size: 23px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.card p{
+    margin-left: 18px;
+    font-size: 15px;
+}
+.card img{
+    width: 66%;
+    margin-left: 44px;
+}
+.card .price{
+    margin-left: 18px;
+    margin-top: 8px;
+    font-size: 16px;
+    display: flex;
+}
+.price p{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.card .color{
+    margin-left: 18px;
+    margin-top: 5px;
+    font-size: 18px;
+    display: flex;
+}
+.color p{
+   
+     border-radius: 20px;
+     margin-top: 3px;
+     
+      
+}
+
+
+.color .blue{
+    background-color: rgb(0, 89, 255);
+    border: 2px solid black;
+    width: 17px;
+    height: 17px;
+}
+
+.color .yellow{
+    background-color: yellow;
+    width: 19px;
+    height: 19px;
+  
+
+}
+.color .red{
+    background-color: red;
+    width: 19px;
+    height: 19px;
+
+} 
+.card .btn{
+    width: 220px;
+    height: 39px;
+    background-image: linear-gradient(to right, rgb(62, 159, 250), rgb(111, 0, 255));
+    border: none;
+    border-radius: 18px;
+    margin-left: 22px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items:center ;
+    text-align: center;
+}
+
+.card button:hover{
+  font-size: 18px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    flex-wrap:wrap;
+}
+
+@media  only  screen and (max-width: 356px) {
+    
+ 
+    .card .btn{
+       position: relative;
+       right: 10px;
+       
+
+    }
+}

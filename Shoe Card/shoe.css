@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+ body{
+    background-color: rgb(48, 48, 246);
+    font-family: 'Mulish', sans-serif;
+ }
+ .container{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .card{
+    width: 270px;
+    height: 430px;
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 40px;
+  margin-inline: 30px;
+ }
+ .card:hover{
+    margin-top: 30px;
+ }
+ img{
+    margin: 20px;
+    width: 67%;
+    margin-left: 26px;
+ }
+ .card .icon i{
+    margin: 8px;
+    font-size: 26px;
+ }
+
+ .card .text{
+    margin-left: 18px;
+ }
+ .text h2{
+    font-size: 23px;
+ }
+ .text p{
+    font-size: 17px;
+ }
+ .card .price{
+    margin-left: 18px;
+    margin-top: 6px;
+    display: flex;
+ }
+ .price p{
+    margin-top: 2px;
+    font-size: 20px;
+    margin: 2px;
+ }
+ .card .color{
+    margin-left: 18px;
+    margin-top: 6px;
+  display: flex;
+   
+ } 
+ .color p{
+    margin: 5px;
+    margin-left: 5px;
+ }
+ .color .red{
+    width: 19px;
+    height: 19px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 7px;
+ }
+ 
+ .color .blue{
+    width: 18px;
+    height: 18px;
+    background-color:blue;
+    border-radius: 20px;
+    margin-top: 7px;
+    border: 2px solid black;
+ }
+ 
+ .color .yellow{
+    width: 19px;
+    height: 19px;
+    background-color: yellow;
+    border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 7px;
+    
+ }
+ .card button{
+    display: flex;
+    justify-content: center;
+    margin-left: 22px;
+    width: 220px;
+    height: 40px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(54, 134, 245), rgb(89, 0, 255));
+ }
+ .card button:hover{
+    font-size: 18px;
+
+ }
+ 
+
+ 
+@media  only  screen and (max-width: 356px) {
+    
+ 
+    .card .btn{
+       position: relative;
+       right: 10px;
+       
+
+    }
+}
