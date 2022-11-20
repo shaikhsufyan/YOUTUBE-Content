@@ -1,0 +1,93 @@
+video{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo h1{
+    font-size: 45px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    margin: 0px;
+    border-bottom: 4px solid black;
+    margin-left: 20px;
+
+    
+}
+.logo h1 span{
+    color: black;
+}
+ul {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Mukta', sans-serif;
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+ul li a:hover{
+    color:   rgb(247, 88, 59);
+}
+ul li a{
+    margin-inline: 28px;
+}
+ul .btn{
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    border: 3px solid white;
+    margin-right: 20px;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    margin-top: -4px;
+    font-family: 'Mukta', sans-serif;
+
+}
+ul .btn:hover{
+    border: 2px solid white;
+    background-color:  rgb(0, 174, 255) ;
+    color:white;
+   
+}
+
+.main-div .head{
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+   font-size: 60px;
+   margin-top: 200px;
+   color:white;
+}
+.main-div .head span{
+    color: rgb(253, 61, 40);
+}
+
+button{
+    
+    margin-left: 41%;
+     margin-top: -53%;
+    width: 180px;
+    height: 47px;
+    background: transparent;
+    border: 3px solid  black;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color:  tomato;
+    color: white;
+    border:3px solid  white;
+}
