@@ -1,0 +1,87 @@
+ 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: 'Mulish', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 27px;
+    font-size: 23px;
+}
+ul li a:hover{
+    font-size: 25px;
+    font-weight: 700;
+}
+nav h1{
+    font-size: 42px;
+    font-family: 'Lato', sans-serif;
+
+}
+nav span{
+    color: rgb(255, 54, 19);
+}
+ul button{
+    width: 90px;
+    height: 34px;
+    background-color: rgb(255, 57, 22);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+ul button:hover{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: transparent;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.text{
+     margin-top: 80px;
+    
+}
+.text h2{
+    font-size: 40px;
+}
+.text h1{
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.text p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.text button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(253, 53, 18);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.text button:hover{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: transparent;
+}
