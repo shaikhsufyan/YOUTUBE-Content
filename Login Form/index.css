@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-image: url("coffe.jpg");
+     background-size: 100% 740px;
+}
+ .main{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+     margin-left: 36%;
+     margin-top: 7%;
+     text-align: center;
+     color: white;
+     font-family: 'Mulish', sans-serif;
+ }
+ .main .text {
+ 
+      position:  relative;
+      top: 6%;
+      
+ }
+ .text h1{
+    color: aqua;
+    font-size: 38px;
+    
+ }
+ .inp1{
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+ }
+ .inp2{
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+
+    
+ }
+ p{
+    margin-top: 30px;
+     
+ }
+ p span{
+    color: aqua;
+    font-weight: 600;
+    cursor: pointer;
+ }
+ button{
+    margin-top: 20px;
+    width: 250px;
+    height: 44px;
+    background-color:  rgb(6, 245, 245);
+    color: black;
+    font-size: 26px;
+    border: none;
+    border-radius: 25px;
+    font-weight:600;
+ }
+ button:hover{
+    font-size: 21px;
+    cursor: pointer;
+    border: 3px solid rgb(23, 241, 241);
+    background-color: black;
+    color: white;
+ }
