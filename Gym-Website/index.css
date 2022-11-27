@@ -1,0 +1,86 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+ }
+ 
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mukta', sans-serif;
+    background-color: black;
+ }
+ ul{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    margin-right: 53px;
+    
+    
+ }
+ ul li{
+    margin-inline: 40px;
+    list-style: none;
+    font-size: 22px;
+ }
+ .logo-div img{
+    width: 66%;
+    margin-left: 10px;
+    
+ }
+ ul li a:hover{
+    border-bottom: 2px solid white;
+     cursor: pointer;
+     color:  rgb(84, 182, 238);
+ }
+ 
+
+ /* main-page css */
+
+ .main-page{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+ }
+ .main-page img{
+    width: 55%;
+    
+ }
+ .main-heading{
+  color: white;
+  margin-top: 10%;
+  margin-left: 50px;
+  font-family: 'Mukta', sans-serif;
+
+ }
+ h1{
+ 
+    font-size: 50px;
+
+ }
+ h4{
+    font-size: 20px;
+    margin-left: 3px;
+    font-family: 'Poppins', sans-serif;
+ }
+ button{
+    width: 170px;
+    height: 48px;
+    
+    background-color: rgb(27, 126, 255);
+    color: white;
+    margin-top: 33px;
+    font-size: 22px;
+  font-family: 'Mukta', sans-serif;
+  margin-left: 3px;
+  cursor: pointer;
+
+ }
+ 
+ button:hover{
+     border: 3px solid   rgb(28, 147, 245);
+    background-color:  black;
+    color:  white;
+    font-size: 26px;
+     
+ }

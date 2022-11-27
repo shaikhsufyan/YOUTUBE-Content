@@ -1,0 +1,76 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+     
+    background-color: black;
+ }
+ ul{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: 'Mukta', sans-serif;
+    list-style: none;
+    font-size: 22px;
+ }
+ ul li a{
+    margin-inline: 30px;
+ }
+
+ ul li a:hover{
+    border-bottom: 2px solid white;
+    color: rgb(88, 190, 249);
+    cursor: pointer;
+
+ }
+ .logo img{
+    width: 68%;
+    margin-top: 4px;
+ }
+ .main-page{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 10);
+    color: white;
+ }
+ .main-page img{
+    width:55%;
+ }
+ .heading{
+ margin-top: 10%;
+ font-family: 'Mukta', sans-serif;
+ margin-left: 30px;
+
+ }
+ .heading h1{
+    font-size: 52px;
+     
+     
+ }
+ p{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+ }
+ button{
+    width: 170px;
+    height: 47px;
+    background-color: rgb(0, 170, 255);
+    color: white;
+    font-size: 24px;
+     margin-top: 40px;
+ font-family: 'Mukta', sans-serif;
+ cursor: pointer;
+
+
+ }
+ button:hover{
+    border: 2px solid rgb(0, 170, 255);
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-size: 27px;
+ }
