@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: rgb(96, 30, 116);
+    color: white;
+    color:  rgb(255, 179, 0);
+}
+nav img{
+    width: 15%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    margin-inline:22px ;
+    font-size: 18px;
+    
+
+}
+nav ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+nav ul li{
+    margin-top: 6px;
+}
+nav ul li i{
+    margin-inline:18px ;
+    font-size: 20px;
+}
+nav ul li  button{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 179, 0);
+    color: rgb(255, 179, 0);border-radius: 3px;
+}
+nav ul li button:hover{
+    background-color: #fff;
+ font-weight: 900;
+}
+
+.main img{
+    width: 100%;
+}
+.byjus {
+    text-align: center;
+    margin-top: 33px;
+}
+.byjus h1{
+    font-size: 30px;
+}
+.learn{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 64px;
+}
+.learn .card{
+    display: flex;
+    width: 500px;
+    background-color: rgb(237, 226, 226);
+    text-align: center;
+    border-radius: 5px;
+    margin-inline:32px ;
+}
+.learn .card img{
+    width: 77%;
+}
+.learn .card h2{
+    margin-top: 44px;
+    color: rgb(70, 24, 113);
+    font-size: 30px;
+}
+.prep{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 216, 216);
+    margin-top: 55px;
+    
+}
+.prep .crd{
+    margin-inline: 33px;
+    text-align: center;
+}
+.crd button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(245, 33, 68);
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 11px;
+}
+.crd img{
+     padding: 33px;
+}
+.ad{
+    text-align: center;
+    padding: 33px;
+    font-size: 44px;
+}
+.learner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.learner .card img{
+    width: 85%;
+}
+.learner .card {
+    text-align: center;
+}
+.head h1{
+    text-align: center;
+    font-size: 34px;
+    padding: 33px;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.parent .pr p{
+    font-size: 25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(71, 26, 114);
+    color: white;
+    padding: 44px;
+
+}
+.footer .list ul li h2{
+    color: rgb(255, 153, 0);
+}
+.list ul li{
+    list-style: none;
+}

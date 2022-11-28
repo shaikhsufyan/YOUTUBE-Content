@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+     
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 13px;
+    background-color: rgb(96, 30, 116);
+    color: white;
+}
+nav img{
+    width: 14%;
+}
+nav ul li a{
+    margin-inline: 18px;
+     color: rgb(253, 173, 0); 
+     cursor: pointer;
+     font-size: 18px;
+     font-weight: 600;
+}
+nav ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+nav ul li i{
+    margin-inline:18px ;
+    font-size: 20px;
+}
+nav ul li i:hover{
+    color: rgb(253, 173, 0);
+    cursor: pointer;
+}
+nav ul li button{
+    width: 80px;
+    height: 30px;
+    border: 2px solid  rgb(253, 173, 0);
+    background:none;
+    border-radius: 4px;
+    color: rgb(253, 173, 0);
+}
+nav ul li button:hover{
+    color:rgb(252, 122, 1) ;
+    background-color: #fff;
+    border: none;
+    font-weight: 900;
+    
+
+}
+nav ul li{
+    list-style: none;
+    margin-top: 11px;
+}
+.main img{
+    width: 100%;
+}
+.learn{
+    text-align: center;
+    margin-top: 22px;
+    
+}
+.cls4{
+    display: flex;
+     
+    margin-left: 50px;
+    margin-top: 44px;
+}
+.cls4 .card img{
+    width: 82%;
+
+}
+.cls4 .card{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(223, 215, 215);
+    margin-inline: 22px;
+    border-radius: 5px;
+     
+
+}
+.card .text h1{
+    color: rgb(80, 33, 124);
+    margin-top: 55px;
+}
+.jee{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 33px;
+    background-color: rgb(241, 232, 232);
+    padding: 22px;
+}
+.jee .crd{
+    text-align: center;
+    margin-inline: 22px;
+}
+.jee .crd button{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(247, 29, 65);
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}
+.crd img{
+    width:100%;
+}
+.explore {
+    display: flex;
+    justify-content: center;
+}
+.explore .card{
+    text-align: center;
+    font-size: 23px;
+}
+.explore img{
+    width: 77%;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(245, 35, 70);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 33px;
+}
+.std{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.std .num{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 33px;
+}
+
+.parent{
+    display: flex;
+    margin-top: 44px;
+}
+.parent .card {
+    text-align: center;
+}
+.parent .card img{
+    width: 55%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(94, 38, 146);
+    padding: 33px;
+    color: white;
+}
+.footer .list h2{
+    /* text-align: center; */
+    color: rgb(255, 208, 0);
+}
