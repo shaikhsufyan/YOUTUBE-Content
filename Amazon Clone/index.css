@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background-color: rgb(223, 215, 215);
+
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(10, 10, 37);
+    color: white;
+}
+.fnav .nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fnav input{
+    width: 400px;
+    height: 33px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    
+}
+.nav p{
+    margin-top: 5px;
+}
+.nav i{
+    margin-top: 5px;
+    font-size: 23px;
+}
+.fnav img{
+    width: 13%;
+    height: 12%;
+    margin-left: 11px;
+   color: white;
+   margin-top: 8px;
+}
+
+.nav img {
+    width: 4%;
+    height: 82%;
+    margin-top: 0px;
+
+}
+.loca{
+    display: flex;
+    font-size: 18px;
+}
+.loca i{
+    margin-inline: 6px;
+}
+.flag{
+    display: flex;
+}
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(39, 39, 66);
+    color: white;
+     
+}
+.snav p:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.main img{
+    width: 100%;
+     
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: -190px;
+    text-align: center;
+
+
+}
+.container .card{
+    width: 330px;
+    height: 300px;
+    background-color: #fff;
+    padding: 22px;
+}
+.card img{
+    justify-content: center;
+     margin-inline: 7px;
+    width: 44%;
+    background-color: #fff;
+    
+}
+
+ .deals{
+    margin-top: 33px;
+    width: 1150px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 11px;
+    height: 300px;
+ }
+.deals h1{
+    margin-left: 44px;
+    padding: 22px;
+}
+.deals .img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    background-color: rgb(37, 37, 59);
+    color: white;
+}
+ .top{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+    background-color:rgb(57, 57, 85) ;
+    color: white;
+    margin-top: 33px;
+}
+.top img{
+    width: 20%;
+    margin-inline: 33px;
+}

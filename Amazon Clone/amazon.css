@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background-color: rgb(224, 215, 215);
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(13, 13, 40);
+    color: white;
+    padding: 11px;
+
+}
+.fnav img{
+    width: 12%;
+    height: 11%;
+}
+.nav input{
+    width: 400px;
+    height: 32px;
+    border: none;
+}
+.nav img{
+    width: 4%;
+    height: 82%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .loca{
+    display: flex;
+}
+.loca i{
+    margin-inline: 11px;
+}
+nav i{
+    font-size: 27px;
+}
+.nav p{
+    font-size: 18px;
+}
+ 
+.nav p{
+    margin-top: 6px;
+}
+
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+    background-color:rgb(39, 39, 69) ;
+    color: white;
+    
+}
+.snav p{
+    margin-top: 2px;
+}
+.snav p:hover{
+    border-bottom: 2px solid white;
+}
+.main img{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+     text-align: center;
+     padding: 11px;
+
+}
+.img img{
+    width: 44%;
+    padding: 7px;
+    margin-top: 7px;
+}
+.deals{
+    margin-top: 33px;
+    width: 1130px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: 22px;
+}
+.deals h1{
+    margin-left: 22px;
+    margin-top: 33px;
+    padding: 22px;
+}
+.deals .imgs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 33px;
+     
+}
+
+.imgs img{
+    width: 14%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 71);
+    color: white;
+    padding: 11px;
+    margin-top: 33px;
+}
+.top img{
+    width: 20%;
+    margin-inline:22px ;
+}
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(17, 17, 41);
+    padding: 54px;
+}
