@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+ul {
+    display: flex;
+}
+ul li{
+    margin-inline: 30px;
+    list-style: none;
+    font-size: 30px;
+}
+nav h1{
+    font-size: 40px;
+    color: rgb(243, 6, 6)
+}
+ul li:hover{
+    background-color: rgb(245, 23, 23);
+    width: 120px;
+    height: 36px;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px ;
+    cursor: pointer;
+    
+}ul li .home{
+    background-color:  rgb(245, 23, 23);
+    width: 100px;
+    height: 36px;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px ;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.text img{
+    width: 700px;
+}
+.head h1{
+    font-size: 90px;
+    font-family: 'Lato', sans-serif;
+}
+.head p {
+    font-size: 27px;
+    margin-top: -20px;
+}
+.head button{
+    font-size: 25px;
+    width: 180px;
+    height: 45px;
+    background-color: rgb(194, 8, 8);
+    border: none;
+    color: white;
+    border-radius: 35px;
+}
+.head button:hover{
+    border: 3px solid white;
+    cursor: pointer;
+
+ 
+
+}
+.text .head{
+    margin-inline: 50px;
+
+}
