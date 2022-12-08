@@ -1,0 +1,82 @@
+
+body{
+    background-color: rgb(230, 219, 219);
+}
+
+.container{
+    width: 380px;
+    height: 500px;
+    border-top: 10px solid rgb(255, 187, 0) ;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 30%;
+ }
+ .container .input .inp{
+    width: 300px;
+    height: 26px;
+     margin-top: 21px;
+     background-color: transparent;
+     color: black;
+     border: 1px solid rgb(207, 197, 197);
+     outline: none;
+     font-size: 16px;
+    
+
+ }
+ .container .input{
+    display: flex;
+    
+ }
+ .container .fname{
+    width: 130px;
+    height: 25px;
+    margin-top: 21px;
+
+ }
+ .container .lname{
+    width: 110px;
+    height: 25px;
+    margin-top: 21px;
+
+
+
+ }
+ .inputs {
+    padding: 4px;
+    font-size: 22px;
+    margin-right: 173px;
+    margin-top: 11px;
+      
+ }
+ 
+ .container i{
+    border: 1px solid gray;
+    padding: 6px;
+    border-right: none;
+    font-size: 15px;
+    margin-top: 21px;
+    margin-left: 22px;
+ }
+ .container button{
+    width: 338px;
+    height: 36px;
+    border: none;
+    background-color: rgb(255, 187, 0);
+    color: white;
+    margin-top: 22px;
+    font-size: 22px;
+ }
+ .container button:hover{
+    
+    border: 2px solid   rgb(255, 187, 0);
+    background-color: transparent;
+    color:  rgb(255, 187, 0);
+    font-weight: 600;
+    border-radius: 3px;
+ }
+ .container h1{
+   padding: 20px;
+   font-family: 'Mulish', sans-serif;
+   font-weight: 600;
+   font-size: 33px;
+ }
