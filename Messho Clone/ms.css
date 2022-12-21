@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mukta', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+nav img{
+    width: 22%;
+    margin-top: -76px;
+}
+nav .down{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+}
+nav .down i{
+    margin-inline: 11px;
+}
+nav input{
+    width: 320px;
+    height: 40px;
+    outline: none;
+
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid rgb(234, 230, 230);
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    margin-top: -55px;
+    font-weight: 600;
+}
+.sec-nav p:hover{
+    color: rgb(242, 27, 62);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.main .text{
+    width: 500px;
+    background-color: rgb(245, 242, 242);
+    
+}
+.main .text h1{
+    font-size: 43px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.main .text .txt{
+    display: flex;
+    justify-content: center;
+
+}
+.main .text .txt h2{
+    margin-inline: 11px;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.main .text button{
+    width: 300px;
+    height: 43px;
+    background-color: rgb(246, 26, 62);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    margin-top: 53px;
+    margin-left: 36px;
+}
+.main .text button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(248, 21, 59);
+    color: rgb(239, 27, 62);
+}
+.top-cat h1{
+    text-align: center;
+    margin-top: 44px;
+    padding: 22px;
+}
+.top-cat .fs{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 225, 229);
+    margin-left: 86px;
+    width: 1000px;
+    
+}
+ 
+.top-cat .fs-text h1{
+    font-size: 65px;
+    margin-top: 44px;
+}
+.seller h1{
+    text-align: center;
+    margin-top: 33px;
+    padding: 33px;
+    font-size: 44px;
+}
+.seller img{
+    width: 1000px;
+    margin-left: 86px;
+}
+h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 33px;
+    padding: 33px;
+}
+.card{
+    margin-top: 33px;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+.crd .img{
+    border: 1px solid rgb(234, 230, 230);
+}
+.crd .img img{
+    width: 82%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+    background-color: rgb(246, 243, 243);
+}
+
+.footer .icons{
+    display: flex;
+}
+.footer .list .icons i{
+    margin-inline: 11px;
+    font-size: 33px;
+}
+
+.footer .list .fc{
+    color: rgb(0, 110, 255);
+}
+.footer .list .inst{
+    color: rgb(252, 26, 26);
+}
+.footer .list .yt{
+    color: red;
+}
+.footer .list .twt{
+    color: rgb(0, 68, 255);
+}
