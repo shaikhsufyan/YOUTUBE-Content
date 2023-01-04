@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+ 
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 61px;
+    cursor: pointer;
+
+
+}
+.left nav .sign{
+    width: 100px;
+    height: 34px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    
+    
+}
+.left nav .sign:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+}
+.left nav button{
+    border: none;
+    color: black;
+    background-color: transparent;
+    margin-left: 32px;
+    font-size: 16px;
+    margin-top: 11px;
+}
+.left .txt{
+    margin-left: 56px;
+    margin-top: 60px;
+    
+}
+.left .txt h1{
+    font-size: 39px;
+}
+.txt p{
+    margin-top: 16px;
+    font-size: 23px;
+    color: rgb(43, 42, 42);
+}
+ 
+.txt .inp{
+    display: flex;
+    margin-top: 33px;
+}
+.txt .inp input{
+    width: 400px;
+    border: 1px solid rgb(247, 90, 33);
+    border-right: none;
+    padding: 11px;
+    font-size: 17px;
+}
+.txt .inp button{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(250, 80, 18);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.left img{
+    width: 32%;
+}
+.main .main-img{
+    width: 530px;
+}
+.txt .pp{
+    font-size: 18px;
+    margin-top: 22px;
+}
+.txt .ct{
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(31, 16, 5);
+    padding: 44px;
+    color: white;
+}
+.card .crd img{
+    width: 30%;
+}
+.card .crd h2{
+    margin-top: 15px;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.order img{
+    width: 33%;
+}
+.order .text{
+    margin-top: 65px;
+     
+   
+}
+.order .text h1{
+    font-size: 43px;
+}
+.order .text p{
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;  
+    background-color: black;
+    padding: 55px;
+    color: white;
+   
+    
+}
+ 
+
+.footer .list{
+    margin-inline: 47px;
+}
+.footer .list img{
+     width:43%;
+     border: 2px solid white;
+     border-radius: 5px;
+}
+.footer .list h2{
+    color: gray;
+}
