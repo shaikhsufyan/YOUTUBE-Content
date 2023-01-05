@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 17px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+
+}
+nav .list{
+    display: flex;
+    
+}
+nav .list p{
+    margin-inline: 11px;
+    font-size: 14px;
+    margin-top: 9px;
+    
+}
+
+nav i{
+    margin-top: 9px;
+    font-size: 20px;
+}
+.main img{
+    width: 100%;
+}
+.deal {
+    text-align: center;
+    pad: 33px;
+}
+.deal button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(248, 20, 58);
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    border: none;
+    margin-top:83px;
+     
+}
+.deal p{
+    margin-top: 22px;
+    font-size: 22px;
+}
+
+.shade {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.shade button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-inline: 22px;
+    margin-top: 77px;
+}
+.shade button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.pro .mk img{
+    width: 96%;
+    margin-top: 44px;
+}
+.pro img{
+    width: 28%;
+    margin-top: 33px;
+}
+
+.pros{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.pros img{
+    width: 23%;
+    margin-top: 66px;
+}
+
+.lips{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.lips img{
+    width: 23%;
+    margin-top: 66px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 88px;
+    padding: 66px;
+    background-color: black;
+    color: white;
+}

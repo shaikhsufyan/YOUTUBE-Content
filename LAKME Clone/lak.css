@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 17px;
+}
+nav .list{
+    display: flex;
+
+}
+nav .list p{
+    margin-inline: 11px;
+    margin-top: 8px;
+}
+nav i{
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.main img{
+    width: 100%;
+}
+.deal{
+    text-align: center;
+}
+.deal button{
+    width: 320px;
+    height: 50px;
+    background-color: rgb(250, 16, 55);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 25px;
+    margin-top: 55px;
+
+}
+.deal p{
+    margin-top: 33px;
+    font-size: 22px;
+}
+
+.pro{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 44px;
+}
+.pro .crd img{
+    width: 96%;
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 260px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border: none;
+    margin-inline: 11px;
+    margin-top: 55px;
+}
+.btn button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.pros{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.pros img{
+    width: 28%;
+    margin-top: 33px;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.crd img{
+    width: 23%;
+    margin-top: 33px;
+}
+
+.lip{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.lip img{
+    width: 23%;
+    margin-top: 33px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 66px;
+    margin-top: 66px;
+}
