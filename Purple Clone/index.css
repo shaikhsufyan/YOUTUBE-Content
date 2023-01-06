@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.navbar .inp{
+    border-bottom:2px solid blue ;
+    margin-top: 39px;
+}
+.navbar .inp input{
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  outline: none;
+  
+}
+.navbar .inp i{
+    margin-inline: 24px;
+}
+
+.navbar img{
+    width: 140px;
+}
+.navbar .icon i{
+    font-size: 33px;
+    color: rgb(97, 96, 96);
+    margin-top: 27px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid rgb(216, 213, 213);
+    border-right: none;
+    border-left: none;
+    padding: 11px;
+    margin-top: 11px;
+    box-shadow: 3px 4px 2px 5px rgb(241, 236, 236);
+    cursor: pointer;
+}
+nav p:hover{
+    color: gray;
+    font-weight: 600;
+}
+.main img{
+    width: 95%;
+    
+}
+.main{
+justify-content: center;
+text-align: center;
+
+}
+.cat{
+    margin-top: 22px;
+}
+.head{
+    margin-left: 16px;
+    padding: 22px;
+    font-size:15px ;
+}
+.cat{
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.cat img{
+    width: 270px;
+}
+.deal img{
+    width: 95%;
+    
+}
+.deal {
+    text-align: center;
+}
+.makeup h1{
+    margin-left: 16px;
+    padding: 22px;
+}
+.makeup .card{
+    text-align: center;
+
+}
+.makeup .card img{
+    width: 360px;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+
+}
+.img-card img{
+    width: 45%;
+    margin-inline:11px;
+}
+.suger {
+    text-align: center;
+    margin-top: 33px;
+
+}
+.suger img{
+    width: 95%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(241, 239, 239);
+    padding: 53px;
+    margin-top: 33px;
+}
