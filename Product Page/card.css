@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    display: flex;
+    margin-top: 22px;
+}
+.left img{
+    width: 366px;
+    margin-inline:32px ;
+}
+.card .img img{
+    width: 74px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+ 
+.card .right {
+    margin-top: 11px;
+}
+.right h3{
+    margin-top: 11px;
+    color: gray;
+}
+.right h1{
+    margin-top: 11px;
+}
+.right i{
+    margin-top: 11px;
+    color: green;
+}
+.right h4{
+    margin-top: 11px;
+}
+.right p{
+    margin-top: 11px;
+}
+.right button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 22px;
+    margin-inline: 22px;
+    font-weight: 600;
+    margin-left: 1px;
+}
+.right button:hover{
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+}
