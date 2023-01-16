@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(217, 214, 214);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     
+}
+.card{
+    width: 180px;
+    height: 330px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 11px;
+    padding: 30px;
+    margin-top: 44px;
+    margin-inline: 11px;
+     
+   
+}
+.card img{
+    width: 60%;
+}
+.card .air{
+    width: 89%;
+}
+.card p{
+    margin-top: 9px;
+}
+
+.card h2{
+    margin-top: 9px;
+}
+.card i{
+    margin-top: 22px;
+    color: rgb(252,191,24);
+    font-size: 23px;
+}
+.card button{
+    margin-top: 24px;
+    width: 241px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: aqua;
+    margin-left: -29.9px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+
+}
+.card .green{
+    background-color: rgb(55,214,90,0.844);
+}
+.card .blue{
+    background-color: rgb(17,17,46);
+}
+.card .dark{
+    background-color: rgb(21,27,2,0.904);
+}
+.card .black{
+    background-color: black;
+}
+

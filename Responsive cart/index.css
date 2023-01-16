@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(224, 223, 223);
+    
+}
+.h{
+    background: aqua;
+    padding: 33px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+.card {
+    width: 180px;
+    height: 340px;
+    padding: 33px;
+    background-color: #fff;
+    border-radius: 11px;
+    text-align: center;
+   
+
+}
+
+.card p{
+    
+    margin-top: 7px;
+    font-size: 13px;
+
+}
+.card button{
+     
+    text-align: center;
+    margin-top: 14px;
+    width: 247px;
+    height: 40px;
+    /* background-color: rgb(29, 118, 160); */
+    margin-left: -33px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border: none;
+    font-size: 20px;
+    color: white;
+
+    
+}
+ 
+.card i{
+ 
+    margin-top: 11px;
+    color: rgb(252, 191, 24);
+    font-size: 20px;
+
+}
+.card h3{
+    margin-top: 11px;
+
+}
+.card .lite {
+    background-color: rgba(55, 214, 90, 0.842);
+}
+.card .black {
+    background-color: black;
+}
+.card .blue {
+    background-color: rgb(17, 17, 46);
+}
+.card .mehndi {
+    background-color:  rgba(21, 27, 2, 0.904);
+}
+.card img{
+    width: 60%;
+}
+.card h2{
+    margin-top: 33px;
+}
+.card .aer{
+    width: 89%;
+}
