@@ -1,0 +1,19 @@
+  .srh{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+  }
+   .srh input{
+    width: 400px;
+    height: 33px;
+    padding: 11px;
+    border: 1px solid orangered;
+    font-size: 19px;
+   }
+   .srh button{
+    width: 200px;
+    background-color: orangered;
+    color: white;
+    font-size: 22px;
+    border: none;
+   }
