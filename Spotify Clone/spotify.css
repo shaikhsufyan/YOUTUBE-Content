@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Mukta', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    color: white;
+    background-color: rgb(16, 16, 16);
+    padding: 22px;
+}
+nav button{
+    width: 100px;
+    height: 42px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 22px;
+    margin-inline:22px ;
+}
+nav h3{
+    margin-top: 9px;
+}
+
+.main{
+    display: flex;
+}
+.main .side-bar{
+    background-color: black;
+    color: white;
+    padding: 22px;
+    height: 700px;
+    margin-top: -85px;
+     
+    
+}
+.side-bar .logo{
+    display: flex;
+}
+
+.side-bar .logo h1{
+    margin-top: 4px;
+}
+.side-bar h4{
+    margin-top: 28px;
+}
+.side-bar .logo img{
+    width: 20%;
+    margin-inline: 22px;
+}
+.main .card{
+    display: flex;
+    justify-content: center;
+    margin-left: 28px;
+    margin-top: 55px;
+}
+.main .card .crd{
+    width: 200px;
+    height: 280px;
+    background-color: rgb(96, 96, 96);
+    border-radius: 8px;
+    margin-inline: 11px;
+    text-align: center;
+    color: white;
+}
+
+.main .card .crd img{
+    width: 90%;
+    padding: 11px;
+    border-radius: 16px;
+} 
