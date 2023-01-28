@@ -1,0 +1,107 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .navigation{
+    display: flex;
+
+}
+nav .navigation img{
+    width: 54%;
+    margin-inline: 11px;
+    margin-top: -11px;
+}
+.navigation h4{
+    margin-inline: 21px;
+    margin-top: 5px;
+}
+nav h4{
+    margin-top: 5px;
+}
+
+nav h4:hover{
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+nav img{
+    width: 4%;
+}
+.navbar{
+  display: flex;
+  justify-content:center ;
+  background-color: rgb(10, 10, 10);
+  padding: 17px;
+  color: white;
+}
+.navbar button{
+    margin-inline: 11px;
+    width: 160px;
+    height: 37px;
+    background-color: rgb(241, 3, 39);
+    color: white;
+    border: none;
+    border-radius: 22px;
+    font-size: 19px;
+}
+.main img{
+    width: 100%;
+}
+h2{
+    margin-left: 32px;
+    padding: 11px;
+    margin-top: 11px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 22px;
+
+}
+.card .crd img{
+    width: 70%;
+}
+
+.s-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 33px;
+}
+.s-card .s-crd img{
+    width: 80%;
+}
+.s-crd .inner{
+    width: 270px;
+    height: 50px;
+    padding: 23px;
+    background-color: rgb(202, 199, 199);
+    margin-left: 39px;
+    margin-top: -11px;
+}
+.s-crd button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(241, 39, 4);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 44px;
+    margin-top: 33px;
+    color: white;
+}

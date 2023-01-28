@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .navi{
+    display: flex;
+   
+}
+nav .navi img{
+    width: 54%;
+    margin-inline: 22px;
+
+}
+nav .navi h3{
+    margin-inline: 22px;
+  
+
+}
+nav  h3:hover{
+     
+    cursor: pointer;
+    margin-top: -0.2px;
+
+}
+
+nav h3{
+    margin-top: 11px;
+}
+
+nav img{
+    width: 4%;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    color: white;
+}
+.bar button{
+    width: 160px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: rgb(224, 4, 33);
+    color: white;
+    font-size: 22px;
+    margin-inline: 11px;
+}
+.bar h3{
+    margin-top: 9px;
+}
+.main img{
+    width: 100%;
+}
+h2{
+    margin-top: 22px;
+    margin-left: 50px;
+    padding: 11px;
+}
+.cards{
+    display: flex;
+    margin-top: 33px;
+    text-align: center;
+}
+.cards .crd h3{
+    color: rgb(26, 26, 26);
+}
+ 
+ 
+.cards .crd img{
+    width: 70%;
+     
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+.text .text-c img{
+    width: 80%;
+    border-radius: 4px;
+}
+.text-c .inner{
+    background-color: rgb(238, 238, 238);
+    width: 270px;
+    height: 50px;
+    margin-left: 41px;
+    margin-top: -5px;
+    padding: 22px;
+}
+.text-c button{
+    width: 160px;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+    background-color: rgb(255, 57, 8);
+}
+
+.footer{
+    display: flex;
+    justify-content:center ;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 44px;
+    margin-top: 33px;
+ 
+    
+     
+}
