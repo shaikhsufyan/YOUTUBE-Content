@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+nav h1{
+    font-size: 25px;
+}
+nav input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-right: 22px;
+}
+.para{
+    display: flex;
+    margin-top: 7px;
+
+}
+.para p{
+    margin-inline: 6px;
+    
+}
+.para p:hover{
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 11px;
+    padding: 11px;
+}
+.sec-nav h2:hover{
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.main img{
+    width: 100%;
+}
+
+.wear h1{
+    text-align: center;
+    margin-top: 11px;
+    padding: 11px;
+}
+.wear img{
+    width: 100%;
+}
+.card h1{
+    text-align: center;
+    margin-top: 11px;
+    padding: 15px;
+}
+.card .crd {
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.crd img{
+    width: 24%;
+}
+
+
+.offer{
+  text-align: center;
+  margin-top: 33px;
+}
+.offer img{
+    width: 96%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:44px;
+    margin-top: 33px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
